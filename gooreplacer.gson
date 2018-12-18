@@ -3,6 +3,12 @@
     "comments": "enable all rules",
     "createAt": "Wed Dec 05 2018 21:53:22 GMT+0800 (China Standard Time)",
     "rules": {
+        {
+          "src": "^g.cn/$",
+          "dst": "google.com/ncr",
+          "kind": "wildcard",
+          "enable": true
+        },
         "ajax.googleapis.com": {
             "dstURL": "ajax.proxy.ustclug.org",
             "kind": "wildcard",
